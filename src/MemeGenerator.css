@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.topText {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Makes it so as text input string grows larger, it grows from the center outwards*/
+}
+
+.bottomText {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000, 
+        -2px -2px 0 #000, 
+        2px -2px 0 #000, 
+        -2px 2px 0 #000, 
+        0px 2px 0 #000, 
+        2px 0px 0 #000, 
+        0px -2px 0 #000, 
+        -2px 0px 0 #000,
+        2px 2px 5px #000;
+}
